@@ -7,94 +7,94 @@
 
     <style type="text/css">
         /* 폰트 글꼴 */
+        
         p {
             font-family: "Algerian", serif;
         }
-
+        
         p {
             font-family: "휴먼 옛체", sans-serif;
         }
-
+        
         p {
             font-family: fantasy;
         }
-
+        
         p {
             font-family: fantasy;
         }
-
+        
         p {
             font-family: monospace;
         }
-
         /* 웹 폰트 : 별도의 ttf, otf 폰트 파일로 폰트 지정 */
         /* 브라우저의 영향이 없는 글꼴 지정 방식 */
-
         /* 웹 폰트 등록 문법 */
+        
         @font-face {
             font-family: "My Font";
             /* 폰트 이름 */
             src: url("./Swagger.ttf");
         }
-
         /* 위에서 만들어진 웹폰트를 p 요소에 적용하기 */
+        
         p {
             font-family: "My Font", serif;
         }
-
         /* 폰트 크기 : 권장 단위 em(배율) */
+        
         p {
             font-size: 2.0em;
         }
-
         /* bold, normal, 100 ~ 900 */
+        
         p {
             font-weight: bold;
         }
-
         /* italic */
+        
         p {
             font-style: italic;
         }
-
         /* 위 4개의 폰트 관련 속성을 한번에 설정하기 */
         /* 작성 순서 [weight/style] size family */
+        
         p {
             font: italic bold 400% "휴먼매직체", serif;
         }
-
         /* 텍스트 관련 스타일 속성들 */
         /* 1. 텍스트 정렬 */
+        
         p {
             text-align: center;
         }
-
         /* 2. 텍스트 변환 : 영단어 첫글자 대문자로 변환 */
+        
         p {
             text-transform: capitalize;
         }
-
         /* 3. 텍스트 꾸미기[줄 긋기] */
+        
         p {
             text-decoration: none;
         }
-
+        
         p {
             text-decoration: underline;
         }
-
         /* 4. 텍스트 그림자 */
+        
         p {
             text-shadow: 5px 3px 5px red;
         }
-
         /* 5. 워드랩 */
+        
         p.aaa {
             width: 5em;
             border: 1px solid blue;
         }
-
         /* 6. 다중 컬룸 */
+        
         p.lorem {
             column-count: 2;
             column-gap: 80px;
@@ -109,13 +109,11 @@
 
 
     <p class="aaa">
-        한글은 문제없이 다음 줄로 자동으로 내려갑니다.
-        asdflkasjdfkljasdklfjlaksdjflkajsdaslkdjflkasjdflkjasasdklfjlkasdjflkasdjfl
+        한글은 문제없이 다음 줄로 자동으로 내려갑니다. asdflkasjdfkljasdklfjlaksdjflkajsdaslkdjflkasjdflkjasasdklfjlkasdjflkasdjfl
     </p>
 
     <p class="lorem">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus alias porro sed. Officiis voluptatum maxime
-        quaerat blanditiis fugiat cumque commodi nostrum officia nisi non. Earum mollitia qui nihil. Eaque, quisquam!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus alias porro sed. Officiis voluptatum maxime quaerat blanditiis fugiat cumque commodi nostrum officia nisi non. Earum mollitia qui nihil. Eaque, quisquam!
     </p>
 
     <!-- 주의!! text-align은 블럭 요소만 적용 가능함. -->
